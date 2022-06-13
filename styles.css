@@ -1,12 +1,23 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #fffbf7;
+    font-family: "Alegreya", serif;
 }
 h1 {
     color: #025157;
     text-align: center;
+    
+    font-size: 60px;
 }
-
-p{
+main{
+    display: flex;
+    text-align:center;
+}
+p {
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 20px;
@@ -17,3 +28,13 @@ button{
     color:white;
     background: #025157;
 }
+figure > img {
+    width: 70%;
+
+}
+figure {
+    margin-top: 32px;
+    vertical-align: middle
+}
+
+
