@@ -7,16 +7,46 @@ body{
     background-color: #fffbf7;
     font-family: "Alegreya", serif;
 }
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
+}
+.logo > img{
+    width: 15%;
+}
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+.actions {
+    width:15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+li {
+    display: inline;
+}
 h1 {
     color: #025157;
     text-align: center;
-    
+    display: inline-block;
     font-size: 60px;
 }
-main{
-    display: flex;
-    text-align:center;
-}
+
+
 p {
     color: #8b8b8bcc;
     font-family: Verdana;
