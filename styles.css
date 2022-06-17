@@ -2,8 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 
 body{
-    background-color: slateblue;
+    background-color: white;
     font-family: "Alegreya", serif;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
 }
 .header > * {
     display: inline-block;
@@ -61,7 +68,7 @@ body{
     border-radius: 5px;
 }
 .main {
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
 }
 li {
@@ -96,5 +103,65 @@ figure {
     margin-top: 32px;
     vertical-align: middle
 }
+.publicidad{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.publicidad video {
+    margin-right:1rem;
+}
+.publicidad .promo h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #025157;
+    margin:0  1rem;
+}
+.publicidad .promo p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.promo  {
+    display: flex;
+    flex-direction: column;
+}
+.publicidad .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-container > img {
+    width: 120px;
+    margin-top: 10px;
+    align-content: center;
+}
+.publica > * {
+    margin: 0 10px;
+}
+.publica input {
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+.publica button {
+    color: white;
+    background-color: #025157;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
 
 
