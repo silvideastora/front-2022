@@ -95,7 +95,7 @@ p {
 
 }
 
-figure > img {
+.main figure > img {
     width: 70%;
 
 }
@@ -114,7 +114,7 @@ figure {
 }
 .publicidad .promo h3 {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 400;
     color: #025157;
     margin:0  1rem;
 }
@@ -167,6 +167,7 @@ figure {
     padding: 5% 10%;
     /*grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 330px);*/
+    background-color: #025157;
     height: 660px;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
@@ -182,5 +183,38 @@ figure {
     align-items: center;
     overflow: hidden;
 }
+.features .feature-card .feature-content {
+    padding:20px 40px;
+}
+.feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+}
 
 
+.features .feature-card .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+} 
+.features .feature-card .feature-content a {
+    font-size: 16px;
+    color:#67b54b;
+    font-weight: 400;
+    text-decoration: none;
+}
+.features .feature-card .feature-image {
+    display:flex;
+    width: 15%;
+    right: -50px;
+    height: 15px;
+}
+.features .feature-card .feature-image figure {
+    height: 100%;
+    margin-top: 0; 
+}
