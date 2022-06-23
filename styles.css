@@ -196,8 +196,6 @@ figure {
     font-weight: 100;
     font-family: "Open Sans", sans-serif;
 }
-
-
 .features .feature-card .feature-content p {
     font-size: 16px;
     color: #7e7e7e;
@@ -217,4 +215,123 @@ figure {
 .features .feature-card .feature-image figure {
     height: 100%;
     margin-top: 0; 
+}
+.success-stories {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.success-stories .overview {
+    padding-right: 100px;
+    flex: 2 1 0%;
+}
+.success-stories .overview h2 {
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+    font-family: "Alegreya", serif;
+}
+.success-stories .overview figure {
+    margin: 0 0 1rem;
+}
+.success-stories .overview button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+    background-color: #025157;
+    color: white;
+}
+.success-stories .overview img {
+    width: 500px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.carousel {
+    position: relative;
+}
+.success-stories .stories-carousel {
+    flex: 1 1 0%;
+}
+
+.carousel-inner {
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.success-stories .stories-carousel .card {
+    width:100%;
+    max-width: 370px;
+    background-color: white;
+    border-radius:10px;
+}
+.success-stories .stories-carousel .card .card-media {
+    position: relative;
+}
+.success-stories .stories-carousel .card .card-media figure {
+    margin-top: 0;
+}
+.success-stories .stories-carousel .card .card-media img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    vertical-align: middle;
+    border-style: none;
+}
+.success-stories .stories-carousel .card .card-media .company {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-stories .stories-carousel .card .card-body {
+    padding: 25px;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+}
+.success-stories .stories-carousel .card .card-body h4 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.success-stories .stories-carousel .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: "Open sans", sans-serif;
+}
+.success-stories .stories-carousel .card .card-footer {
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+    padding: 25px;
+}
+.success-stories .stories-carousel .card .card-footer button {
+    display: block;
+    border-radius: 5px;
+    margin-left: 0;
+    width: 100%;
+    padding: 12px 20px;
+    font-weight: 600;
+    background-color: #025157;
+    color: #fff;
+    font-size: 16px;
 }
