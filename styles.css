@@ -32,9 +32,7 @@ body{
     width: 15%;
 }
 .navbar {
-    width: 70%;
-    height: 75px;
-    text-align: left;
+    text-align: center;
     color: #025157;
     font-weight: 500;
 }
@@ -47,7 +45,6 @@ body{
     margin: 0 25px;
 }
 .actions {
-    width:15%;
     text-align: right;
     font-size: 14px;
     font-weight: 600;
@@ -335,3 +332,73 @@ figure {
     color: #fff;
     font-size: 16px;
 }
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width : 575px) {
+    .navbar,
+    .actions {
+        display: none;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .main {
+        margin-top: 100px;
+    }
+    .banner > img {
+        width: 100%;
+    }
+    .publicidad > form {
+        flex-direction: column;
+    }
+
+    .publicidad > form > div {
+        height: 50px;
+        margin-top: 10px;
+    }
+    .publicidad > form > input {
+        width: 65%;
+    }
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .video-container > video {
+        width: 100%;
+    }
+    .publicidad {
+        margin-top: 10px;
+    }
+    .publicidad > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding: 3% 0;
+    height: 100%;
+    }
+    
+}
+
+
+  /** dispositivos pequeños en vista landscape (horizontal) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    
+  }
+  
+  /** dispositivos medianos (tablets) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+  }
+  
+  /** dispositivos grandes (desktops) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+   
+  }
+  
+  /** dispositivos extra grandes (monitores grandes, tvs) */
+  @media (min-width: 1200px) {
+   
+  }
